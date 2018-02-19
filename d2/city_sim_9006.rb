@@ -103,6 +103,10 @@ class Driver
   def classes
     @classes
   end
+
+  def name
+    @name
+  end
 end
 
 
@@ -130,7 +134,7 @@ for i in 1..5 do
   while loc != "Downtown" && loc != "Monroeville"
     loc = d.move.to_s
   end
-  puts "Acquired #{d.toys} toys!"
-  puts "Acquired #{d.books} books!"
-  puts "Attended #{d.classes} classes!"
+  puts "#{d.name} Acquired #{d.toys} toys!"
+  puts "#{d.name} Acquired #{d.books} books!"
+  puts "#{d.name} Attended #{d.classes} classes!"
 end

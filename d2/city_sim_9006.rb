@@ -1,5 +1,5 @@
+raise "enter a seed and only a seed" unless ARGV.count == 1
 seed = ARGV[0].to_i
-raise "seed must be positive integer" unless seed > 0
 $prng = Random::new seed
 
 class Place
@@ -130,5 +130,7 @@ for i in 1..5 do
   while loc != "Downtown" && loc != "Monroeville"
     loc = d.move.to_s
   end
-  puts "Acquired #{d.toys} toys, #{d.books} books, and attended #{d.classes} classes"
+  puts "Acquired #{d.toys} toys!"
+  puts "Acquired #{d.books} books!"
+  puts "Attended #{d.classes} classes!"
 end

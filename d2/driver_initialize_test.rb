@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'city_sin_9006'
+require_relative 'city_sim_9006'
 
 # Unit tests for Driver.initialize method
 # EQUIVALENCE CLASSES:
@@ -31,17 +31,18 @@ class DriverInitTest < Minitest::Test
     end
   end
 
-  #ensures that variable is instantiated to the proper value 
+  #ensures that variable is instantiated to the proper value
   def test_toys
     assert_equal d.toys, 0
   end
 
-  #ensures that variable is instantiated to the proper value 
+  #ensures that variable is instantiated to the proper value
   def test_books
     assert_equal d.books, 0
   end
 
-  #ensures that variable is instantiated to the proper value 
+  #ensures that variable is instantiated to the proper value
   def test_classes
     assert_equal d.classes, 1
   end
+end 

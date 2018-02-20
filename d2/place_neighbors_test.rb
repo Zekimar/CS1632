@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'city_sin_9006'
+require_relative 'city_sim_9006'
 
 
 #UNIT TESTS FOR METHOD Place.setNeighbors
@@ -36,3 +36,4 @@ class PlaceNeighborTest < Minitest::Test
       testPlace.setNeighbors("test", 1)
     end
   end
+end 

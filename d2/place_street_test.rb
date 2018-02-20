@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'city_sin_9006'
+require_relative 'city_sim_9006'
 
 
 #UNIT TESTS FOR METHOD Place.setStreets
@@ -23,3 +23,4 @@ class PlaceStreetTest < Minitest::Test
     street2 = test2
     assert_equal "test2", street2
   end
+end

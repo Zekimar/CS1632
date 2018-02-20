@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'city_sin_9006'
+require_relative 'city_sim_9006'
 
  # UNIT TESTS FOR METHOD Place.initialize
  # EQUIVALENCE CLASSES:
@@ -28,4 +28,4 @@ class PlaceInitTest < Minitest::Test
       pl = Place::new 12
     end
   end
-end 
+end

@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'city_sin_9006'
+require_relative 'city_sim_9006'
 
 # Unit tests for Driver.move method
 # EQUIVALENCE CLASSES:
@@ -28,3 +28,4 @@ class DriverMoveTest < Minitest::Test
     end
     assert_equal d.location, testNeighbor2
   end
+end

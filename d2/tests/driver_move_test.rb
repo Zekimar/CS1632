@@ -1,5 +1,6 @@
 require 'minitest/autorun'
-require_relative 'city_sim_9006'
+require_relative '../Place'
+require_relative '../Driver'
 
 # Unit tests for Driver.move method
 # EQUIVALENCE CLASSES:

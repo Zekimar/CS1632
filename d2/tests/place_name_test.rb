@@ -1,5 +1,6 @@
 require 'minitest/autorun'
-require_relative 'city_sim_9006'
+require_relative '../Place'
+require_relative '../Driver'
 
  # UNIT TESTS FOR METHOD Place.to_s
  # ensures that the method correctly prints the name variable
@@ -14,4 +15,4 @@ class PlaceNameTest < Minitest::Test
     pl = Place::new "t"
     assert_equal "t", pl.to_s
   end
-end 
+end

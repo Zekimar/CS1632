@@ -9,11 +9,11 @@ require_relative 'city_sim_9006'
 class PlaceNeighbor2NameTest < Minitest::Test
 
   #ensures that neighbor1's name variable is returned
-  a = Place::new "test"
-  b = Place::new "n1"
-  c = Place::new "n2"
-  a.setNeighbors(b, c)
   def test_n2_to_s:
+    a = Place::new "test"
+    b = Place::new "n1"
+    c = Place::new "n2"
+    a.setNeighbors(b, c)
     assert_equal "n2", a.n2_to_s
   end
-end 
+end
